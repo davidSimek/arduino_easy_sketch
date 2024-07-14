@@ -1,3 +1,6 @@
+#ifndef DELETE_LIBS
+#include <Arduino.h>
+#endif
 
 void setup() {
     pinMode(LED_BUILTIN, OUTPUT);  // Set the built-in LED pin as an output
@@ -9,4 +12,3 @@ void loop() {
     digitalWrite(LED_BUILTIN, LOW);   // Turn off the LED
     delay(1000);  // Wait for 1 second
 }
-
