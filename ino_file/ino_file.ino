@@ -1,3 +1,11 @@
+/*
+* demo for 7 segment display
+* connections:
+*   [A-G]   ->  [2-8]
+*   DP      ->  9
+*   GND     ->  GND
+*/
+
 #include <stdint.h>
 #ifndef DELETE_LIBS
 #include <Arduino.h>
