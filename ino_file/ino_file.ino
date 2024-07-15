@@ -6,40 +6,41 @@
 *   GND     ->  GND
 */
 
-#include <stdint.h>
 #ifndef DELETE_LIBS
 #include <Arduino.h>
 #endif
 
-#define A 2
-#define B 3
-#define C 4
-#define D 5
-#define E 6
-#define F 7
-#define G 8
-#define DP 9
+#include "sum.h"
 
-#define TOP A
-#define BOTTOM D
-#define MIDDLE G
-#define TOP_LEFT B
-#define TOP_RIGHT F
-#define BOTTOM_LEFT C
-#define BOTTOM_RIGHT E
-#define DOT DP
+#define A_PIN 2
+#define B_PIN 3
+#define C_PIN 4
+#define D_PIN 5
+#define E_PIN 6
+#define F_PIN 7
+#define G_PIN 8
+#define DP_PIN 9
+
+#define TOP A_PIN
+#define BOTTOM D_PIN
+#define MIDDLE G_PIN
+#define TOP_LEFT B_PIN
+#define TOP_RIGHT F_PIN
+#define BOTTOM_LEFT C_PIN
+#define BOTTOM_RIGHT E_PIN
+#define DOT DP_PIN
 
 void flash(uint8_t pin, uint16_t time);
 
 void setup() {
-    pinMode(A, OUTPUT);
-    pinMode(B, OUTPUT);
-    pinMode(C, OUTPUT);
-    pinMode(D, OUTPUT);
-    pinMode(E, OUTPUT);
-    pinMode(F, OUTPUT);
-    pinMode(G, OUTPUT);
-    pinMode(DP, OUTPUT);
+    pinMode(A_PIN, OUTPUT);
+    pinMode(B_PIN, OUTPUT);
+    pinMode(C_PIN, OUTPUT);
+    pinMode(D_PIN, OUTPUT);
+    pinMode(E_PIN, OUTPUT);
+    pinMode(F_PIN, OUTPUT);
+    pinMode(G_PIN, OUTPUT);
+    pinMode(DP_PIN, OUTPUT);
 }
 
 
@@ -52,6 +53,7 @@ void loop() {
     flash(BOTTOM_LEFT, 100);
     flash(MIDDLE, 100);
     flash(TOP_RIGHT, 100);
+    int number = sum(3, 5);
 }
 
 
