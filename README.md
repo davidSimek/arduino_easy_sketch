@@ -109,7 +109,7 @@ Intro text
 #### Distributions
 
 <details>
-  <summary>Void Linux</summary>
+  <summary><h3>Void Linux</h3></summary>
   <ol>
     <li>
       arduino-cli
