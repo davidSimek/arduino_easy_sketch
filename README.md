@@ -106,6 +106,36 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 Intro text
 
 ### Prerequisites
+#### Distributions
+
+<details>
+  <summary>Void Linux</summary>
+  <ol>
+    <li>
+      arduino-cli
+    </li>
+    <li>
+      avr-gcc
+    </li>
+    <li>
+      avr-libc 
+    </li>
+      </ol>
+</details>
+<details>
+  <summary>Ubuntu</summary>
+  <ol>
+    <li>
+      arduino-cli
+    </li>
+    <li>
+      avr-gcc
+    </li>
+    <li>
+      avr-libc 
+    </li>
+      </ol>
+</details>
 
 Void Linux ....
 
