@@ -110,19 +110,13 @@ Intro text
 
 <details>
   <summary>Void Linux</summary>
-  <ol>
-    <li>
+  <p></p>
       | package name | package manager | command to install                  |
       |:------------:|:---------------:|:-----------------------------------:|
       | arduino-cli  | xbps            | `sudo xbps-install -Su arduino-cli` |
       | avr-gcc      | xbps            | `sudo xbps-install -Su avr-gcc`     |
       | avr-libc     | xbps            | `sudo xbps-install -Su avr-libc`    |
-> **Note:** If you know your lsp uses specifically gcc or libc, you can install just that one.
-    </li>
-    <li>
-      avr-libc 
-    </li>
-      </ol>
+<p>> **Note:** If you know your lsp uses specifically gcc or libc, you can install just that one.</p>
 </details>
 <details>
   <summary>Ubuntu</summary>
