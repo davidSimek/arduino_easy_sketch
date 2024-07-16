@@ -77,7 +77,7 @@ Intro text
 #### packages/binaries on different distributions
 
 | Arduino Type    | Void Linux (xbps)                               | Fedora                  |
-|-----------------|-------------------------------------------------|-------------------------|
+|:---------------:|:-----------------------------------------------:|:-----------------------:|
 | Arduino Uno     | arduino-cli<br>avr-gcc<br>avr-libc              | unsupported             |
 | Arduino Due     | unsupported                                     | unsupported             |
 
