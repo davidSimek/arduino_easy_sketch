@@ -10,7 +10,7 @@
 <h3 align="center">Arduino easy sketch</h3>
 
   <p align="center">
-    Arduino development workflow/kickstart for Linux.
+    Arduino C++ development workflow/kickstart for Linux.
   </p>
 </div>
 
