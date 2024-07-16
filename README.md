@@ -51,6 +51,8 @@ What I didn't like was using ArduinoIDE. I know it is best way to program arduin
 
 So this project tries to make it easy for you to create Arduino project, edit it and compile it. Loading it into physical arduino is your job. It is mainly tested in neovim, but vscode or whatever you use should be able to work with this in the same way, if it uses lsp. I am personally using Void Linux, so I am primarely developing it for it, but I am trying to make it work on most major distributions.
 
+To test it, I use SimulIDE. It is free circuit simulator which lets you simulate Arduino and many more boards.
+
  > **Note:** If you know some bash and your package manager, you will be able to use this even if your distro is not supported by this repo)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -58,7 +60,8 @@ So this project tries to make it easy for you to create Arduino project, edit it
 
 ### Built With
 
-* [![arduino-cli][https://arduino.github.io/arduino-cli/1.0/]][https://arduino.github.io/arduino-cli/1.0/]
+
+- <a href="https://arduino.github.io/arduino-cli/1.0/" target="_blank"><img src="images/arduino_icon.png" alt="Arduino-cli" width="30" height="30"> Arduino CLI</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
