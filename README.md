@@ -60,8 +60,8 @@ To test it, I use SimulIDE. It is free circuit simulator which lets you simulate
 
 ### Built With
 
-[Arduino CLI](https://arduino.github.io/arduino-cli/1.0/)
-[SimulIDE](https://simulide.com/p/)
+<p>[Arduino CLI](https://arduino.github.io/arduino-cli/1.0/)</p>
+<p>[SimulIDE](https://simulide.com/p/)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
