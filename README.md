@@ -45,7 +45,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 <p align="center">
-  <img src="images/board_pixabay_manseok_Kim.jpg" alt="Logo" width="300" height="300">
+  <img src="images/board_pixabay_manseok_Kim.jpg" alt="Logo" width="320" height="200">
 </p>
 
 I started to learn arduino because I know C pretty well and saw a lot of demand on embeded C developer jobs.
