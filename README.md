@@ -88,11 +88,28 @@ Intro text
 
 ### Installation
 
-1. first step
-2. second step
-   ```sh
-   something
-   ```
+1. Clone or download this repository
+```bash
+git clone https://github.com/davidSimek/arduino_easy_sketch.git
+```
+or
+
+<img src="images/download.png" alt="Logo" width="473" height="200">
+
+2. Make libraries visible
+  Depending on your distribution and board, add one of these commands into your shell configuration file (.bashrc or .config/fish/config.fish or ...)
+
+| Arduino Type                     | Void Linux (xbps)                               | Arch Linux              |
+|:--------------------------------:|:-----------------------------------------------:|:-----------------------:|
+| Arduino Uno R3                   | arduino-cli<br>avr-gcc<br>avr-libc              | unsupported             |
+| Arduino Uno R3 SMD               | arduino-cli<br>avr-gcc<br>avr-libc              | unsupported             |
+| Arduino Mega 2560 Rev3           | arduino-cli<br>avr-gcc<br>avr-libc              | unsupported             |
+| Arduino Nano (classic)           | arduino-cli<br>avr-gcc<br>avr-libc              | unsupported             |
+| Arduino Micro                    | arduino-cli<br>avr-gcc<br>avr-libc              | unsupported             |
+| Arduino Leonardo                 | arduino-cli<br>avr-gcc<br>avr-libc              | unsupported             |
+| Arduino Uno Mini Limited Edition | arduino-cli<br>avr-gcc<br>avr-libc              | unsupported             |
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
