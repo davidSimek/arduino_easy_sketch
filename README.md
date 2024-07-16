@@ -45,7 +45,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-I started to learn arduino because I know C pretty well and saw a lot of demand on embeded C developer jobs.
+I started to learn Arduino because I know C pretty well and saw a lot of demand on embeded C developer jobs.
 
 What I didn't like was using ArduinoIDE. I know it is best way to program arduino for most people, but I like to do my work in neovim. As I started to create my project, adapting it for lsp to correctly understand, installing libraries and so on, I realized this might get useful for more people than just me.
 
@@ -58,7 +58,7 @@ So this project tries to make it easy for you to create Arduino project, edit it
 
 ### Built With
 
-* [![tool][tool.com]][actual-link]
+* [![arduino-cli][https://arduino.github.io/arduino-cli/1.0/]][https://arduino.github.io/arduino-cli/1.0/]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
