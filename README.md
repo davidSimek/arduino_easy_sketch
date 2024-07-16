@@ -74,7 +74,7 @@ To test it, I use SimulIDE. It is free circuit simulator which lets you simulate
 Intro text
 
 ### Prerequisites
-#### packages/binaries on different distributions
+#### packages you have to have on different distributions
 
 | Arduino Type    | Void Linux (xbps)                               | Fedora                  |
 |:---------------:|:-----------------------------------------------:|:-----------------------:|
