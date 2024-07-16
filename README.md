@@ -99,16 +99,19 @@ or
 2. Make libraries visible
   Depending on your distribution and board, add one of these commands into your shell configuration file (.bashrc or .config/fish/config.fish or ...)
 
+`export CPLUS_INCLUDE_PATH=/usr/avr/include:/home/void/.arduino15/packages/arduino/hardware/avr/1.8.6/cores/arduino:/home/void/.arduino15/packages/arduino/hardware/avr/1.8.6/variants/standard:/home/void/Arduino/libraries`
+
 | Arduino Type                     | Void Linux (xbps)                               | Arch Linux              |
 |:--------------------------------:|:-----------------------------------------------:|:-----------------------:|
-| Arduino Uno R3                   | arduino-cli<br>avr-gcc<br>avr-libc              | unsupported             |
-| Arduino Uno R3 SMD               | arduino-cli<br>avr-gcc<br>avr-libc              | unsupported             |
-| Arduino Mega 2560 Rev3           | arduino-cli<br>avr-gcc<br>avr-libc              | unsupported             |
-| Arduino Nano (classic)           | arduino-cli<br>avr-gcc<br>avr-libc              | unsupported             |
-| Arduino Micro                    | arduino-cli<br>avr-gcc<br>avr-libc              | unsupported             |
-| Arduino Leonardo                 | arduino-cli<br>avr-gcc<br>avr-libc              | unsupported             |
-| Arduino Uno Mini Limited Edition | arduino-cli<br>avr-gcc<br>avr-libc              | unsupported             |
+| Arduino Uno R3                   | `export CPLUS_INCLUDE_PATH=/usr/avr/include:/home/void/.arduino15/packages/arduino/hardware/avr/1.8.6/cores/arduino:/home/void/.arduino15/packages/arduino/hardware/avr/1.8.6/variants/standard:/home/void/Arduino/libraries`              | unsupported             |
+| Arduino Uno R3 SMD               | `export CPLUS_INCLUDE_PATH=/usr/avr/include:/home/void/.arduino15/packages/arduino/hardware/avr/1.8.6/cores/arduino:/home/void/.arduino15/packages/arduino/hardware/avr/1.8.6/variants/standard:/home/void/Arduino/libraries`              | unsupported             |
+| Arduino Mega 2560 Rev3           | `export CPLUS_INCLUDE_PATH=/usr/avr/include:/home/void/.arduino15/packages/arduino/hardware/avr/1.8.6/cores/arduino:/home/void/.arduino15/packages/arduino/hardware/avr/1.8.6/variants/standard:/home/void/Arduino/libraries`              | unsupported             |
+| Arduino Nano (classic)           | `export CPLUS_INCLUDE_PATH=/usr/avr/include:/home/void/.arduino15/packages/arduino/hardware/avr/1.8.6/cores/arduino:/home/void/.arduino15/packages/arduino/hardware/avr/1.8.6/variants/standard:/home/void/Arduino/libraries`              | unsupported             |
+| Arduino Micro                    | `export CPLUS_INCLUDE_PATH=/usr/avr/include:/home/void/.arduino15/packages/arduino/hardware/avr/1.8.6/cores/arduino:/home/void/.arduino15/packages/arduino/hardware/avr/1.8.6/variants/standard:/home/void/Arduino/libraries`              | unsupported             |
+| Arduino Leonardo                 | `export CPLUS_INCLUDE_PATH=/usr/avr/include:/home/void/.arduino15/packages/arduino/hardware/avr/1.8.6/cores/arduino:/home/void/.arduino15/packages/arduino/hardware/avr/1.8.6/variants/standard:/home/void/Arduino/libraries`              | unsupported             |
+| Arduino Uno Mini Limited Edition | `export CPLUS_INCLUDE_PATH=/usr/avr/include:/home/void/.arduino15/packages/arduino/hardware/avr/1.8.6/cores/arduino:/home/void/.arduino15/packages/arduino/hardware/avr/1.8.6/variants/standard:/home/void/Arduino/libraries`              | unsupported             |
 
+ > **Note:** You might have to change version. It is that number that looks like this 1.8.6.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
