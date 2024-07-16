@@ -105,7 +105,7 @@ or
 |:--------------------------------:|:-----------------------------------------------:|:-----------------------:|
 | Arduino&nbsp;Uno &nbsp;R3<br>Arduino&nbsp;Uno&nbsp;R3&nbsp;SMD<br>Arduino&nbsp;Mega&nbsp;2560&nbsp;Rev3<br>Arduino&nbsp;Namo&nbsp;(classic)<br>Arduino&nbsp;Micro<br>Arduino&nbsp;Leonardo<br>Arduino&nbsp;Uno&nbsp;Mini&nbsp;Limited&nbsp;Edition                     | `export CPLUS_INCLUDE_PATH=/usr/avr/include:/home/<username>/.arduino15/packages/arduino/hardware/avr/<version>/cores/arduino:/home/<username>/.arduino15/packages/arduino/hardware/avr/<version>/variants/standard:/home/<username>/Arduino/libraries` | unsupported |
 
- > **Note:** You have to change <username> and <version>. Username is you user name on linux, and version is version of avr or other library installed.
+ > **Note:** You have to change \<username> and \<version>. Username is you user name on linux, and version is version of avr or other library installed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
