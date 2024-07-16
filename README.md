@@ -82,7 +82,7 @@ Intro text
 
 ### Installation
 
-1. Clone or download this repository into your project directory.
+#### 1. Clone or download this repository into your project directory.
 ```bash
 git clone https://github.com/davidSimek/arduino_easy_sketch.git
 ```
@@ -90,7 +90,7 @@ or
 
 <img src="images/download.png" alt="Logo" width="710" height="300">
 
-2. Make libraries visible.<p>
+#### 2. Make libraries visible.<p>
 Depending on your distribution and board, add one of these commands into your shell configuration file (.bashrc or .config/fish/config.fish or ...)
 
 `export CPLUS_INCLUDE_PATH=/usr/avr/include:/home/void/.arduino15/packages/arduino/hardware/avr/1.8.6/cores/arduino:/home/void/.arduino15/packages/arduino/hardware/avr/1.8.6/variants/standard:/home/void/Arduino/libraries`
