@@ -76,29 +76,15 @@ Intro text
 ### Prerequisites
 #### packages you have to have on different distributions
 
-| Arduino Type    | Void Linux (xbps)                               | Fedora                  |
-|:---------------:|:-----------------------------------------------:|:-----------------------:|
-| Arduino Uno     | arduino-cli<br>avr-gcc<br>avr-libc              | unsupported             |
-| Arduino Due     | unsupported                                     | unsupported             |
-
-
-> **Note:** If you know your lsp uses specifically gcc or libc, you can install just that one.
-
-  <summary>Ubuntu</summary>
-  <ol>
-    <li>
-      arduino-cli
-    </li>
-    <li>
-      avr-gcc
-    </li>
-    <li>
-      avr-libc 
-    </li>
-      </ol>
-</details>
-
-Void Linux ....
+| Arduino Type                     | Void Linux (xbps)                               | Arch Linux              |
+|:--------------------------------:|:-----------------------------------------------:|:-----------------------:|
+| Arduino Uno R3                   | arduino-cli<br>avr-gcc<br>avr-libc              | unsupported             |
+| Arduino Uno R3 SMD               | arduino-cli<br>avr-gcc<br>avr-libc              | unsupported             |
+| Arduino Mega 2560 Rev3           | arduino-cli<br>avr-gcc<br>avr-libc              | unsupported             |
+| Arduino Nano (classic)           | arduino-cli<br>avr-gcc<br>avr-libc              | unsupported             |
+| Arduino Micro                    | arduino-cli<br>avr-gcc<br>avr-libc              | unsupported             |
+| Arduino Leonardo                 | arduino-cli<br>avr-gcc<br>avr-libc              | unsupported             |
+| Arduino Uno Mini Limited Edition | arduino-cli<br>avr-gcc<br>avr-libc              | unsupported             |
 
 ### Installation
 
