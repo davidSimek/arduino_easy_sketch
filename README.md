@@ -76,12 +76,11 @@ Intro text
 ### Prerequisites
 #### packages/binaries on different distributions
 
+| Arduino Type    | Void Linux (xbps)                               | Fedora                  |
+|-----------------|-------------------------------------------------|-------------------------|
+| Arduino Uno     | arduino-cli<br>avr-gcc<br>avr-libc              | unsupported             |
+| Arduino Due     | unsupported                                     | unsupported             |
 
-| package name | package manager | command to install                  |
-|:------------:|:---------------:|:-----------------------------------:|
-| arduino-cli  | xbps            | `sudo xbps-install -Su arduino-cli` |
-| avr-gcc      | xbps            | `sudo xbps-install -Su avr-gcc`     |
-| avr-libc     | xbps            | `sudo xbps-install -Su avr-libc`    |
 
 > **Note:** If you know your lsp uses specifically gcc or libc, you can install just that one.
 
