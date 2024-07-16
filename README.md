@@ -103,7 +103,7 @@ or
 
 | Arduino Type                     | Void Linux (xbps)                               | Arch Linux              |
 |:--------------------------------:|:-----------------------------------------------:|:-----------------------:|
-| Arduino Uno R3<br>Arduino Uno R3 SMD<br>Arduino Mega 2560 Rev3<br>Arduino Namo (classic)<br>Arduino Micro<br>Arduino Leonardo<br>Arduino Uno Mini Limited Edition                     | `export CPLUS_INCLUDE_PATH=/usr/avr/include:/home/void/.arduino15/packages/arduino/hardware/avr/1.8.6/cores/arduino:/home/void/.arduino15/packages/arduino/hardware/avr/1.8.6/variants/standard:/home/void/Arduino/libraries` | unsupported |
+| Arduino&nbsp;Uno &nbsp;R3<br>Arduino&nbsp;Uno&nbsp;R3&nbsp;SMD<br>Arduino&nbsp;Mega&nbsp;2560&nbsp;Rev3<br>Arduino&nbsp;Namo&nbsp;(classic)<br>Arduino&nbsp;Micro<br>Arduino&nbsp;Leonardo<br>Arduino&nbsp;Uno&nbsp;Mini&nbsp;Limited&nbsp;Edition                     | `export CPLUS_INCLUDE_PATH=/usr/avr/include:/home/void/.arduino15/packages/arduino/hardware/avr/1.8.6/cores/arduino:/home/void/.arduino15/packages/arduino/hardware/avr/1.8.6/variants/standard:/home/void/Arduino/libraries` | unsupported |
 
  > **Note:** You might have to change version. It is that number that looks like this 1.8.6.
 
