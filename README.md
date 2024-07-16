@@ -45,9 +45,15 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](images/board_pixabay_manseok_Kim.jpg)
+<img src="images/board_pixabay_manseok_Kim.jpg" alt="Logo" width="300" height="300">
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+I started to learn arduino because I know C pretty well and saw a lot of demand on embeded C developer jobs.
+
+What I didn't like was using ArduinoIDE. I know it is best way to program arduino for most people, but I like to do my work in neovim. As I started to create my project, adapting it for lsp to correctly understand, installing libraries and so on, I realized this might get useful for more people than just me.
+
+So this project tries to make it easy for you to create Arduino project, edit it and compile it. Loading it into physical arduino is your job. It is mainly tested in neovim, but vscode or whatever you use should be able to work with this in the same way, if you use lsp. I am personally using Void Linux, so I am primarely developing it for it, but I am trying to make it work on most major distributions.
+
+ <p>> **Note:** If you know your lsp uses specifically gcc or libc, you can install just that one. (If you know some bash and your package manager, you will be able to use this even if your distro is not supported by this repo)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
