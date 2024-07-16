@@ -78,13 +78,7 @@ Intro text
 
 | Arduino Type                     | Void Linux (xbps)                               | Arch Linux              |
 |:--------------------------------:|:-----------------------------------------------:|:-----------------------:|
-| Arduino Uno R3                   | arduino-cli<br>avr-gcc<br>avr-libc              | unsupported             |
-| Arduino Uno R3 SMD               | arduino-cli<br>avr-gcc<br>avr-libc              | unsupported             |
-| Arduino Mega 2560 Rev3           | arduino-cli<br>avr-gcc<br>avr-libc              | unsupported             |
-| Arduino Nano (classic)           | arduino-cli<br>avr-gcc<br>avr-libc              | unsupported             |
-| Arduino Micro                    | arduino-cli<br>avr-gcc<br>avr-libc              | unsupported             |
-| Arduino Leonardo                 | arduino-cli<br>avr-gcc<br>avr-libc              | unsupported             |
-| Arduino Uno Mini Limited Edition | arduino-cli<br>avr-gcc<br>avr-libc              | unsupported             |
+| Arduino&nbsp;Uno &nbsp;R3<br>Arduino&nbsp;Uno&nbsp;R3&nbsp;SMD<br>Arduino&nbsp;Mega&nbsp;2560&nbsp;Rev3<br>Arduino&nbsp;Namo&nbsp;(classic)<br>Arduino&nbsp;Micro<br>Arduino&nbsp;Leonardo<br>Arduino&nbsp;Uno&nbsp;Mini&nbsp;Limited&nbsp;Edition | arduino-cli<br>avr-gcc<br>avr-libc              | unsupported             |
 
 ### Installation
 
