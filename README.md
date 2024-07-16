@@ -44,9 +44,6 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-<p align="center">
-  <img src="images/board_pixabay_manseok_Kim.jpg" alt="Logo" width="320" height="200">
-</p>
 
 I started to learn arduino because I know C pretty well and saw a lot of demand on embeded C developer jobs.
 
@@ -54,7 +51,7 @@ What I didn't like was using ArduinoIDE. I know it is best way to program arduin
 
 So this project tries to make it easy for you to create Arduino project, edit it and compile it. Loading it into physical arduino is your job. It is mainly tested in neovim, but vscode or whatever you use should be able to work with this in the same way, if it uses lsp. I am personally using Void Linux, so I am primarely developing it for it, but I am trying to make it work on most major distributions.
 
- > **Note:** If you know some bash and your package manager, you will be able to use this even if your distro is not supported by this repo
+ > **Note:** If you know some bash and your package manager, you will be able to use this even if your distro is not supported by this repo)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
