@@ -94,7 +94,7 @@ git clone https://github.com/davidSimek/arduino_easy_sketch.git
 ```
 or
 
-<img src="images/download.png" alt="Logo" width="473" height="200">
+<img src="images/download.png" alt="Logo" width="710" height="300">
 
 2. Make libraries visible
   Depending on your distribution and board, add one of these commands into your shell configuration file (.bashrc or .config/fish/config.fish or ...)
