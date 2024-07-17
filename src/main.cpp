@@ -1,64 +1,56 @@
-/*
-* demo for 7 segment display
-* connections:
-*   [A-G]   ->  [2-8]
-*   DP      ->  9
-*   GND     ->  GND
-*/
+#define F_CPU 16000000L
+#define ARDUINO 10607
+#define ARDUINO_AVR_UNO
+#define ARDUINO_ARCH_AVR
 
 #ifndef DELETE_LIBS
-#include <Arduino.h>
+
+//these are there to fool lsp, ! don't touch, they will be removed in compile time
+#include "fool.h"
 #endif
 
-#include "sum.h"
 
-#define A_PIN 2
-#define B_PIN 3
-#define C_PIN 4
-#define D_PIN 5
-#define E_PIN 6
-#define F_PIN 7
-#define G_PIN 8
-#define DP_PIN 9
-
-#define TOP A_PIN
-#define BOTTOM D_PIN
-#define MIDDLE G_PIN
-#define TOP_LEFT B_PIN
-#define TOP_RIGHT F_PIN
-#define BOTTOM_LEFT C_PIN
-#define BOTTOM_RIGHT E_PIN
-#define DOT DP_PIN
-
-void flash(uint8_t pin, uint16_t time);
+// Define constants
+const int analogInPin = A0; // Analog input pin connected to potentiometer
+const int ledPin = 13;      // LED connected to digital pin 13
+const int analogThreshold = 512; // Threshold for analog input
 
 void setup() {
-    pinMode(A_PIN, OUTPUT);
-    pinMode(B_PIN, OUTPUT);
-    pinMode(C_PIN, OUTPUT);
-    pinMode(D_PIN, OUTPUT);
-    pinMode(E_PIN, OUTPUT);
-    pinMode(F_PIN, OUTPUT);
-    pinMode(G_PIN, OUTPUT);
-    pinMode(DP_PIN, OUTPUT);
-}
+  // Initialize serial communication
+  Serial.begin(9600);
 
+  // Set digital pin 13 as an output
+  DDRB |= (1 << DDB5); // DDRB is Data Direction Register for Port B, DDB5 is pin 13
+
+  // Initialize ADC (Analog-to-Digital Converter)
+  // Set reference voltage to AVcc (5V), adjust ADC clock to 125kHz
+  ADMUX = (1 << REFS0); // AVcc with external capacitor at AREF pin
+  ADCSRA = (1 << ADEN) | (1 << ADPS2) | (1 << ADPS1); // Enable ADC, prescaler = 64 (125kHz)
+
+  // Disable digital input on analog pin to reduce power consumption
+  DIDR0 |= (1 << ADC0D); // Disable digital input buffer on ADC0 pin (A0)
+}
 
 void loop() {
-    flash(TOP, 100);
-    flash(TOP_LEFT, 100);
-    flash(MIDDLE, 100);
-    flash(BOTTOM_RIGHT, 100);
-    flash(BOTTOM, 100);
-    flash(BOTTOM_LEFT, 100);
-    flash(MIDDLE, 100);
-    flash(TOP_RIGHT, 100);
-    int number = sum(3, 5);
-}
+  // Read analog input from potentiometer
+  int analogValue = analogRead(analogInPin);
 
+  // Perform some computation
+  int scaledValue = map(analogValue, 0, 1023, 0, 255); // Scale analog value to 0-255 range
 
-void flash(uint8_t pin, uint16_t time) {
-    digitalWrite(pin, 1);
-    delay(time);
-    digitalWrite(pin, 0);
+  // Control an LED based on the computed value
+  if (scaledValue > analogThreshold) {
+    PORTB |= (1 << PORTB5); // Turn on LED (digital pin 13)
+  } else {
+    PORTB &= ~(1 << PORTB5); // Turn off LED
+  }
+
+  // Send the computed value over serial communication
+  Serial.print("Analog Input: ");
+  Serial.print(analogValue);
+  Serial.print(" | Scaled Value: ");
+  Serial.println(scaledValue);
+
+  // Delay for a short period
+  _delay_ms(100); // Delay for 100 milliseconds
 }
