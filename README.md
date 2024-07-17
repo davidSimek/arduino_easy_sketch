@@ -78,7 +78,7 @@ Intro text
 
 | Arduino Type                     | Void Linux (xbps)                               | Arch Linux              |
 |:--------------------------------:|:-----------------------------------------------:|:-----------------------:|
-| Arduino&nbsp;Uno &nbsp;R3<br>Arduino&nbsp;Uno&nbsp;R3&nbsp;SMD<br>Arduino&nbsp;Mega&nbsp;2560&nbsp;Rev3<br>Arduino&nbsp;Namo&nbsp;(classic)<br>Arduino&nbsp;Micro<br>Arduino&nbsp;Leonardo<br>Arduino&nbsp;Uno&nbsp;Mini&nbsp;Limited&nbsp;Edition | arduino-cli<br>avr-gcc<br>avr-libc              | unsupported             |
+| Arduino&nbsp;Uno &nbsp;R3<br>Arduino&nbsp;Uno&nbsp;R3&nbsp;SMD<br>Arduino&nbsp;Mega&nbsp;2560&nbsp;Rev3<br>Arduino&nbsp;Namo&nbsp;(classic)<br>Arduino&nbsp;Micro<br>Arduino&nbsp;Leonardo<br>Arduino&nbsp;Uno&nbsp;Mini&nbsp;Limited&nbsp;Edition | arduino-cli              | unsupported             |
 
 ### Installation
 
